@@ -141,9 +141,9 @@ class YouTube extends React.Component {
       this.updatePlayer();
     }
 
-    if (shouldResetPlayer(prevProps, this.props)) {
-      this.resetPlayer();
-    }
+    // if (shouldResetPlayer(prevProps, this.props)) {
+    //   this.resetPlayer();
+    // }
 
     if (shouldUpdateVideo(prevProps, this.props)) {
       this.updateVideo();
